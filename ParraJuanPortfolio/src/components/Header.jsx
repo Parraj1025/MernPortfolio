@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 
-function App() {
+function Header() {
   return (
     <>
     <Container>
@@ -20,4 +20,4 @@ function App() {
   )
 }
 
-export default App
+export default Header

@@ -1,9 +1,13 @@
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import Header from './components/Header.jsx'
+import Navigation from './components/NavBar.jsx'
+import AboutMe from './components/AboutJuan.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <App />
+    <Header/>
+    <Navigation/>
+    <AboutMe/>
   </>
 )
