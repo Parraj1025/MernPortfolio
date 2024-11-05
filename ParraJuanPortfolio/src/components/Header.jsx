@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
+import AboutMe from "./AboutJuan";
+import ContactMe from "./ContactMe";
 
 function Header() {
   return (
@@ -12,7 +14,10 @@ function Header() {
           </h1> 
         </Col>
         <Col className="mx-auto text-center" md={12}>
-         <h2> Juan Parra</h2>
+          <Row><h2> Juan Parra</h2>
+            <AboutMe/>
+            <ContactMe/>
+            </Row>
         </Col>
       </Row>
       </Container>
