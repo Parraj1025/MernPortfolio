@@ -5,23 +5,18 @@ import ContactMe from "./ContactMe";
 
 function Header() {
   return (
-    <>
-    <Container>
+    <Container style={{width:'100vw', marginBottom:'3%', marginTop:'2%'}} >
       <Row>
         <Col className="mx-auto text-center" md={12}>
-          <h1>
-          Building Scalable Web Apps with MERN | Full-Stack Engineer
-          </h1> 
-        </Col>
-        <Col className="mx-auto text-center" md={12}>
-          <Row><h2> Juan Parra</h2>
-            <AboutMe/>
-            <ContactMe/>
-            </Row>
+          <h2>
+          Building Scalable Web Apps with MERN
+          </h2> 
+          <h3>
+          Full-Stack Engineer
+          </h3>
         </Col>
       </Row>
       </Container>
-    </>
   )
 }
 

@@ -1,17 +1,21 @@
-import { Accordion} from "react-bootstrap";
-import NoteCarousel from "../assets/Carousel";
+import { Accordion, Container} from "react-bootstrap";
+import NoteCarousel from "./NoteCarousel";
+import SocialCarousel from "./SocialCarousel";
 
 function ProjectAccordion() {
     return(
-    <Accordion>
+        <Container style={{marginBottom:'5%'}}>
+    <Accordion style={{width:'100%'}}>
         <Accordion.Item eventKey="0">
-            <Accordion.Header> Mongo Database </Accordion.Header>
+            <Accordion.Header><>Social Network</> 
+            <a href="https://juanssocial-1.onrender.com/" target="_blank" style={{marginLeft:'2%'}}>Visit</a> 
+            </Accordion.Header>
             <Accordion.Body>
-                
+                <SocialCarousel/>
             </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-            <Accordion.Header> Social Network </Accordion.Header>
+            <Accordion.Header> MongoDb </Accordion.Header>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
             <Accordion.Header> Note Taker </Accordion.Header>
@@ -20,6 +24,7 @@ function ProjectAccordion() {
             </Accordion.Body>
         </Accordion.Item>
     </Accordion>
+    </Container>
     )
 }
 
