@@ -14,6 +14,7 @@ function NoteCarousel() {
                         <video 
                         autoPlay={true}
                         loop={true}
+                        playsinline={true}
                         src="./videos/Notes/NewNote.mov"
                         style={{ width:'70%'}}
                         />
@@ -28,6 +29,7 @@ function NoteCarousel() {
                         src="./img/WeatherSc.png"
                         autoPlay={true}
                         loop={true}
+                        playsinline={true}
                         style={{ width:'70%'}}
                         />
                         </div>
@@ -41,6 +43,7 @@ function NoteCarousel() {
                         src="./videos/ReadMeGen.mov"
                         autoPlay={true}
                         loop={true}
+                        playsinline={true}
                         style={{ width:'70%'}}
                         />
                         </div>

@@ -45,6 +45,7 @@ function SocialCarousel() {
                         <video
                             src="./videos/Social/ResponsiveScreen.mov"
                             autoPlay={true}
+                            playsinline={true}
                             loop={true}
                             style={{ width: '70%' }}
                         />
@@ -67,6 +68,7 @@ function SocialCarousel() {
                             src="./videos/Social/GoogleSignIn.mov"
                             autoPlay={true}
                             loop={true}
+                            playsinline={true}
                             style={{ width: '70%' }}
                         />
                     </div>
