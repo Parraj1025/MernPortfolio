@@ -17,7 +17,7 @@ createRoot(document.getElementById('root')).render(
     <Navigation />
     </Col>
     </Row>
-  <Row style={{ backgroundImage:'url("./img/fancy.png")', backgroundColor:'rgb(3, 122, 104)',textAlign: 'center', width: '100vw', justifyContent:'center', color:'white', border:'2px, solid, rgb(102, 103, 105) ',}}>
+  <Row style={{ backgroundImage:'url("./img/fancy.png")', backgroundColor:'rgb(3, 122, 104)', backgroundSize:'cover', backgroundPosition:'center',textAlign: 'center', width: '100%', height:'100%', justifyContent:'center', color:'white', border:'2px, solid, rgb(102, 103, 105) ',}}>
          <h3 style={{ width:'50%', height:'fit-content', border:'2px,solid,rgb(	206, 220, 0)', margin:'5%'}}> Project Showcase </h3>
        <Row style={{ height:'10%', paddingBottom:'3%'}}>
         <h6 style={{}}> Immerse yourself in user-centric web experiences. Explore projects built with MERN, prioritizing seamless interactions and intuitive design. </h6>
