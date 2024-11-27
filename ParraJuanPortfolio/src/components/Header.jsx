@@ -5,18 +5,14 @@ import ContactMe from "./ContactMe";
 
 function Header() {
   return (
-    <Container style={{width:'100vw', marginBottom:'3%', marginTop:'2%'}} >
-      <Row>
-        <Col className="mx-auto text-center" md={12}>
-          <h2>
+    
+      <Row style={{height:'20%'}} >
+        <Col className="mx-auto text-center"  style={{height:'100%',width:'100%', padding:'4%', backgroundImage:'url("./img/SmokyBackground.png")', color:"white", border:'3px, solid, black'}}>
+          <h1>
           Building Scalable Web Apps with MERN
-          </h2> 
-          <h3>
-          Full-Stack Engineer
-          </h3>
+          </h1> 
         </Col>
       </Row>
-      </Container>
   )
 }
 
